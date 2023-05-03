@@ -11,7 +11,10 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="text" name="paragraph">
-    <input type="text">
+    <form action="myscript.php" method="POST">
+        <input type="text" name="paragraph">
+        <input type="text" name="word">
+        <button type="submit">Send</button>
+    </form>
 </body>
 </html>
